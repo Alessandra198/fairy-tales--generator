@@ -1,0 +1,90 @@
+body {
+  background: linear-gradient(
+    90.7deg,
+    rgb(255, 253, 218) 1.9%,
+    rgb(246, 210, 255) 39.3%,
+    rgb(152, 222, 254) 64.7%,
+    rgb(251, 255, 210) 100.8%
+  );
+  font-family: "Cormorant Upright", serif;
+}
+
+.container {
+  background-color: rgba(222, 185, 255, 0.675);
+  max-width: 600px;
+  display: block;
+  margin: 18px auto;
+  padding: 30px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(122, 78, 224, 0.336);
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  border-bottom: 1px solid rgba(221, 133, 221, 0.5);
+}
+
+main {
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-topic {
+  padding: 13px;
+  border: 1px solid white;
+  border-radius: 45px;
+  width: 70%;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #fcf7fe;
+}
+
+.input-button {
+  padding: 13px;
+  border: none;
+  border-radius: 45px;
+  width: 125px;
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: rgb(143, 83, 233);
+  color: white;
+}
+
+.fairy-tale {
+  padding: 20px;
+  background: linear-gradient(
+    90.7deg,
+    rgb(255, 253, 218, 0.6) 1.9%,
+    rgb(246, 210, 255, 0.6) 39.3%,
+    rgb(152, 222, 254, 0.6) 64.7%,
+    rgb(251, 255, 210, 0.6) 100.8%
+  );
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 650;
+  border-radius: 10px;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+a {
+  color: #9223A9;
+  font-weight: 600;
+}
+

@@ -4,40 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fairy Tales by AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>AI Fairy Tales Generator🧚‍♀️</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the Fairy Tale"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" value="✍️" />
-      </form>
-      <div>Fairy Tale</div>
-    </main>
-    <footer>
-      Coded with 🩷 and 🧚‍♀️ by
-      <a href="https://github.com/Alessandra198" target="_blank"
-        >Alessandra Rinaldo</a
-      >, is
-      <a
-        href="https://github.com/Alessandra198/fairy-tales-generator"
-        target="_blank"
-        >open-sourced on Github</a
-      >
-      and
-      <a href="https://ai-fairy-tales-generator.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Fairy Tales Generator🧚‍♀️</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a topic to create your new Fairy Tale"
+            autofocus
+            required
+            autocomplete="off"
+            class="input-topic"
+          />
+          <input type="submit" value="Write it" class="input-button" />
+        </form>
+        <div class="fairy-tale">
+          Fairy Tale
+          <br />
+          Fairy Tale
+        </div>
+      </main>
+      <footer>
+        Coded with 🩷 and 🧚‍♀️ by
+        <a href="https://github.com/Alessandra198" target="_blank"
+          >Alessandra Rinaldo</a
+        >, is
+        <a
+          href="https://github.com/Alessandra198/fairy-tales-generator"
+          target="_blank"
+          >open-sourced on Github</a
+        >
+        and
+        <a href="https://ai-fairy-tales-generator.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/app.js"></script>
   </body>
 </html>
