@@ -26,19 +26,22 @@
         <h1>AI Fairy Tales Generator🧚‍♀️</h1>
       </header>
       <main>
-        <form id="tale-generator-form">
-          <input
-            type="text"
-            placeholder="Enter a topic to create your new Fairy Tale"
-            autofocus
-            required
-            autocomplete="off"
-            class="input-topic"
-            id="input-topic"
-          />
-          <input type="submit" value="Write it" class="input-button" />
-        </form>
-        <div class="fairy-tale" id="tale"></div>
+        <div class="form-container">
+          <form id="tale-generator-form">
+            <input
+              type="text"
+              placeholder="Enter a topic to create your new Fairy Tale"
+              autofocus
+              required
+              autocomplete="off"
+              class="input-topic"
+              id="input-topic"
+            />
+            <input type="submit" value="Write it" class="input-button" />
+          </form>
+          <small class="hint">i.e.: Flowers, Paris, Cheese</small>
+        </div>
+        <div class="fairy-tale hidden" id="tale"></div>
       </main>
       <footer>
         Coded with 🩷 and 🧚‍♀️ by

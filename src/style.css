@@ -35,10 +35,13 @@ main {
   margin-bottom: 25px;
 }
 
+.form-container {
+  margin-bottom: 20px;
+}
+
 form {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
 }
 
 .input-topic {
@@ -56,12 +59,18 @@ form {
   border: none;
   border-radius: 45px;
   width: 125px;
-  margin-left: 5px;
+  margin-left: 7px;
   font-size: 16px;
   background-color: rgb(143, 83, 233);
   color: white;
 }
 
+.hint {
+  line-height: 1.5;
+  margin-top: 10px;
+  color: #9223a9;
+  margin-left: 15px;
+}
 .fairy-tale {
   padding: 20px;
   background: linear-gradient(
@@ -75,6 +84,10 @@ form {
   line-height: 1.5;
   font-weight: 650;
   border-radius: 10px;
+}
+
+.hidden {
+  display: none;
 }
 
 strong {
