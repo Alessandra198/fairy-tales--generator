@@ -77,6 +77,10 @@ form {
   border-radius: 10px;
 }
 
+strong {
+  color: #9223a9;
+}
+
 footer {
   font-size: 14px;
   text-align: center;
@@ -84,7 +88,6 @@ footer {
 }
 
 a {
-  color: #9223A9;
+  color: #9223a9;
   font-weight: 600;
 }
-
